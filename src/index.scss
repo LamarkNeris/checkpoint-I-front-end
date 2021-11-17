@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: aqua;
+}
+.banner{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.imgF{
+margin-top: 2px;
+ margin-left: 2px;
+ border: 2px;
+ align-items: left;
+ 
+}
+.imgPr{
+  width: 200px;
+  height: 150px;
+  margin: 5px 5px 5px 5px ;
+  border: 1px solid lightgray;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+ 
+}
+.footer{
+  color: black;
+  
+ 
+}
+.btnIcon{
+  width: 40px;
+  height: 40px;
+  margin: 3px 3px 3px 3px;
+}
+
+#rodape{
+  background-color: rgba(128, 128, 128, 0.466);
+}
+.projetos{
+  background-color: aqua;
+  margin: 20px;
+}
+#header{
+  background-color: rgba(128, 128, 128, 0.466);
+  display: flex;
+  position: sticky;
+  top: 0;
+ 
+}
